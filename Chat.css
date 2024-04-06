@@ -1,0 +1,109 @@
+/* Chat container */
+.chat-container {
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  
+}
+
+/* Messages container */
+.messages {
+  height: 300px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.logo-container {
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 50px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+/* Message thread */
+.thread {
+  margin-bottom: 10px;
+}
+
+/* Individual message */
+.message {
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  max-width: 70%;
+}
+
+/* User message */
+.user {
+  background-color: #007bff;
+  color: #fff;
+  align-self: flex-end;
+}
+
+/* Bot message */
+.bot {
+  background-color: #28a745;
+  color: #fff;
+}
+
+/* Form */
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+/* Input field */
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Send button */
+button[type="submit"] {
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+.chat-page {
+  display: flex;
+}
+
+.chat-container {
+  flex: 1;
+}
+
+.history-container {
+  flex: 1;
+  margin-right: 20px;
+  width:30px;
+  
+
+}
+.history-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 400;
+}
+
+.history1 {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+  width: 300px;
+}
+
+
+
+
